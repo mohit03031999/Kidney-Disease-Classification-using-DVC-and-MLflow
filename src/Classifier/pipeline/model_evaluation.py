@@ -1,7 +1,10 @@
 from Classifier.config.configuration import ConfigurationManager
 from Classifier.components.model_evaluation_mlflow import Evaluation
 from Classifier import logger
+import os
 
+os.environ['MLFLOW_TRACKING_USERNAME'] = 'agarwalmohit0303'
+os.environ['MLFLOW_TRACKING_PASSWORD'] = '06b5f42fc1e32d2a289e36fe80bc328a9c9919ce'
 
 
 STAGE_NAME = "Evaluation stage"
