@@ -16,6 +16,14 @@ class Training:
         self.model = tf.keras.models.load_model(
             self.config.updated_base_model_path
         )
+        print("Print Path: ", self.config.updated_base_model_path)
+
+        self.model.compile(
+            optimizer=tf.keras.optimizers.SGD(learning_rate=0.1),
+            loss=tf.keras.losses.CategoricalCrossentropy(),
+            metrics=["accuracy"]
+        )
+
 
     def train_valid_generator(self):
 
@@ -64,7 +72,7 @@ class Training:
 
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
-        model.save(path)
+        tf.keras.models.save_model(model, path, save_format='tf')
 
 
 
@@ -72,6 +80,8 @@ class Training:
     def train(self):
         self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size
         self.validation_steps = self.valid_generator.samples // self.valid_generator.batch_size
+
+        print("Runing okay")
 
         self.model.fit(
             self.train_generator,
