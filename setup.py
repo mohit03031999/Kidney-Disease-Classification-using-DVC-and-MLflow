@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Kidney-Disease-Classification-using-DVC-and-MLflow"
 AUTHOR_USER_NAME = "mohit03031999"
-SRC_REPO = "cnnClassifier"
+SRC_REPO = "Classifier"
 AUTHOR_EMAIL = "agarwalmohit0303@gmail.com"
 
 
