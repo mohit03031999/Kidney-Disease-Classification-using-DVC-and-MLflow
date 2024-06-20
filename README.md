@@ -47,7 +47,9 @@ open up you local host and port
 [dagshub](https://dagshub.com/)
 
 MLFLOW_TRACKING_URI=https://dagshub.com/agarwalmohit0303/Kidney-Disease-Classification-using-DVC-and-MLflow.mlflow \
-MLFLOW_TRACKING_USERNAME=agarwalmohit0303 \
+MLFLOW_TRACKING_USERNAME=agarwalmohit0303
+
+
 <img width="1440" alt="Screenshot 2024-06-20 at 4 51 56 PM" src="https://github.com/mohit03031999/Kidney-Disease-Classification-using-DVC-and-MLflow/assets/39363730/74ff8027-ffc1-4907-95a0-cb1c041e68cd">
 
 ### DVC cmd
