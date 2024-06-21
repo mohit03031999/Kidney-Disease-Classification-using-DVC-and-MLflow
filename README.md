@@ -66,6 +66,11 @@ DVC
 - It can perform Orchestration (Creating Pipelines)
 
 
+## DVC-DAG
+
+<img width="1420" alt="Screenshot 2024-06-20 at 6 40 31 PM" src="https://github.com/mohit03031999/Kidney-Disease-Classification-using-DVC-and-MLflow/assets/39363730/8914d964-40ee-4a9b-af53-9938f4ef8329">
+
+
 # AWS-CICD-Deployment-with-Github-Actions
 
 ## 1. Login to AWS console.
